@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --wallpaper1: url('imgs/universe-1.png');
+    --wallpaper2: url('imgs/universe-2.png');
+    --wallpaper3: url('imgs/universe-3.png');
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    background-image: var(--wallpaper1);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+
+   
+
+}
+
+nav {
+    font-weight: 400;
+    font-size: 2.4rem;
+
+
+    display: flex;
+
+    align-items: center;
+    height: 12rem;
+    gap: 4.3rem;
+    padding-left: 7.2rem;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#app {
+    color: #E1E1E6;
+   
+  
+
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 1.6rem;
+
+}
+
+#app p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 64.8rem;
+    margin-left: 10rem;
+
+}
+
+#app h1 {
+    font-size: 4.8rem;
+    margin-top: 6.3rem;
+    margin-left: 10rem;
+
+}
+
+#app button {
+    background-color: transparent;
+    color: #E1E1E6;
+
+    margin-left: 10rem;
+
+
+    text-transform: uppercase;
+
+    width: 195px;
+    height: 48px;
+    left: 542px;
+    top: 378px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    margin: -170px auto;
+}
+
+#app .universo {
+    margin: 172px auto ;
+}
